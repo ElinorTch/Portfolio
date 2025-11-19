@@ -9,6 +9,28 @@ export interface Experience {
 
 export const EXPERIENCES: Experience[] = [
     {
+        enterprise: 'Assystem',
+        job: 'Consultant IT',
+        date: 'Septembre 2025 - En cours',
+        description: [
+            "Coordination des parties prenantes (métier, technique, externe) via des réunions régulières et ciblées",
+            "Suivi de l’avancement des projets (planning, risques, livrables) en mode Agile",
+            "Rédaction de comptes rendus, plans d’action et reporting à la hiérarchie",
+            "Rédaction de spécifications fonctionnelles et techniques (user stories, diagrammes, maquettes)",
+            "Traduction des besoins métiers en solutions concrètes et priorisées",
+            "Conception et développement de solutions applicatives adaptées (front-end, back-end, API)",
+            "Réalisation de tests unitaires et fonctionnels, documentation technique",
+            "Analyse d’impact, planification et exécution de migrations applicatives (refonte technique)"
+        ],
+        stack: [
+            'Angular / VueJs',
+            'Python - fastApi / Java - Spring',
+            'Pytest',
+            'PostgreSQL',
+        ],
+        link: 'https://www.assystem.com/fr/',
+    },
+    {
         enterprise: 'Paratonnerres',
         job: 'Développeur Full Stack',
         date: 'Avril 2025 - Septembre 2025',
@@ -46,7 +68,7 @@ export const EXPERIENCES: Experience[] = [
         ],
         stack: [
             'Angular',
-            'NestJS / Java - Spring',
+            'NestJS',
             'JestJS / JUnit',
             'AWS (SQS, SNS, S3, Lambda, CloudFront)',
             'Bitbucket Pipelines',
