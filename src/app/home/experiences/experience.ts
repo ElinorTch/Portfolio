@@ -25,7 +25,8 @@ export const EXPERIENCES: Experience[] = [
         stack: [
             'Angular/VueJs',
             'Python/(django-fastApi)',
-            'Pytest',
+            'Java/Spring Boot',
+            'Pytest/JUnit',
             'PostgreSQL',
         ],
         link: 'https://www.assystem.com/fr/',
