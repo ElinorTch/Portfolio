@@ -11,7 +11,7 @@ export const EXPERIENCES: Experience[] = [
     {
         enterprise: 'Assystem',
         job: 'Ingénieur FullStack',
-        date: 'Septembre 2025 - En cours',
+        date: 'Septembre 2025 - Présent',
         description: [
             "Coordination des parties prenantes (métier, technique, externe)",
             "Suivi Agile des projets (planning, risques, livrables)",
@@ -79,7 +79,7 @@ export const EXPERIENCES: Experience[] = [
     {
         enterprise: 'Saint Jean',
         job: 'Assistant DSI',
-        date: 'Juin 2022 - Mars 2024',
+        date: 'Septembre 2022 - Mars 2024',
         description: [
             "Conteneurisation et orchestration avec Docker",
             "Déploiement et configuration d'un serveur Moodle local",
@@ -100,7 +100,7 @@ export const EXPERIENCES: Experience[] = [
     {
         enterprise: 'Fond Routier',
         job: 'Technicien stagiaire / Développeur Full Stack',
-        date: 'Juin 2020 - Août 2020',
+        date: 'Juin 2021 - Août 2021',
         description: [
             "Application web Angular/Django pour automatiser les cours théoriques d’auto‑école",
             "Interface utilisateur & logique métier (intégration des modules pédagogiques côté serveur)",
@@ -115,7 +115,7 @@ export const EXPERIENCES: Experience[] = [
     {
         enterprise: 'Fagiciel',
         job: 'Développeur PHP natif',
-        date: 'Juin 2018 - Août 2018',
+        date: 'Juin 2019 - Août 2019',
         description: [
             "Développement d’une application de gestion des arrivées des employés",
             "Connexion à la base de données",
