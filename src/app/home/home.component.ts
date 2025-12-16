@@ -3,7 +3,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { SocialComponent } from './social/social.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
-import {AboutMeComponent} from "./about-me/about-me.component";
+import {MyWorksComponent} from "./my-works/my-works.component";
 
 @Component({
   selector: 'app-home',
@@ -13,7 +13,7 @@ import {AboutMeComponent} from "./about-me/about-me.component";
         HeaderComponent,
         SocialComponent,
         ExperiencesComponent,
-        AboutMeComponent,
+        MyWorksComponent,
     ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
