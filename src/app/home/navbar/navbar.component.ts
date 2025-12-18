@@ -39,6 +39,10 @@ export class NavbarComponent {
             name: 'Expériences',
             target: '#experiences',
         },
+        {
+            name: 'Realisations',
+            target: '#realisations',
+        }
     ];
 
     openDialog() {
