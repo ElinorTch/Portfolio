@@ -9,7 +9,7 @@ export const WORKS: Work[] = [
     {
         imgPath: "assets/realisations/coworkrz.png",
         title: "Coworkrz",
-        description: "Une application pour pouvoir facilement gerer un espace de coworking, reservation de salle, facture, abonnement, achat de produit vendu dans l'espace.",
-        link: "https://coworkrz.com",
+        description: "Une application pour pouvoir facilement gérer un espace de coworking, réservation de salle, facture, abonnement, achat de produit vendu dans l'espace.",
+        link: "https://staging-portal.coworkrz.biz/start/signin",
     },
 ];
