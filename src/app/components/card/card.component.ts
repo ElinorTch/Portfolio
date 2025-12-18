@@ -1,13 +1,12 @@
-import {Component} from '@angular/core';
-import {NgOptimizedImage} from "@angular/common";
+import {Component, Input} from '@angular/core';
 import {NgIcon, provideIcons} from "@ng-icons/core";
 import {hugeLink03} from "@ng-icons/huge-icons";
+import {Work} from "../../home/my-works/work";
 
 @Component({
     selector: 'app-card',
     standalone: true,
     imports: [
-        NgOptimizedImage,
         NgIcon
     ],
     templateUrl: './card.component.html',
@@ -17,5 +16,5 @@ import {hugeLink03} from "@ng-icons/huge-icons";
     ],
 })
 export class CardComponent {
-
+    @Input({ required: true }) myWorks: Work[] = [];
 }

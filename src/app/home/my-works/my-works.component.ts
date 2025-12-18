@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {CardComponent} from "../../components/card/card.component";
+import {Work, WORKS} from "./work";
 
 @Component({
   selector: 'app-my-works',
@@ -11,5 +12,5 @@ import {CardComponent} from "../../components/card/card.component";
   styleUrl: './my-works.component.scss'
 })
 export class MyWorksComponent {
-
+    myWorks: Work[] = WORKS;
 }
