@@ -9,21 +9,43 @@ export interface Experience {
 
 export const EXPERIENCES: Experience[] = [
     {
+        enterprise: 'Assystem',
+        job: 'Ingénieur FullStack',
+        date: 'Septembre 2025 - Présent',
+        description: [
+            "Coordination des parties prenantes (métier, technique, externe)",
+            "Suivi Agile des projets (planning, risques, livrables)",
+            "Reporting hiérarchique (comptes rendus, plans d’action)",
+            "Spécifications fonctionnelles et techniques (user stories, maquettes)",
+            "Traduction des besoins métiers en solutions priorisées",
+            "Conception & développement applicatif (front‑end, back‑end, API)",
+            "Tests & documentation technique (unitaires, fonctionnels)",
+            "Migrations applicatives (analyse d’impact, refonte technique)"
+        ],
+        stack: [
+            'Angular/VueJs',
+            'Python/(django-fastApi)',
+            'Java/Spring Boot',
+            'Pytest/JUnit',
+            'PostgreSQL',
+        ],
+        link: 'https://www.assystem.com/fr/',
+    },
+    {
         enterprise: 'Paratonnerres',
         job: 'Développeur Full Stack',
         date: 'Avril 2025 - Septembre 2025',
         description: [
-            "Conception et développement de composants logiciels en Java exposant des services REST consommés par une interface Angular",
-            "Développement d’un logiciel desktop d’analyse de risque foudre en JavaFX (interface) avec un back-end Spring",
-            "Conception d’une architecture modulaire avec interface graphique et services REST en Spring",
-            "Implémentation d’un système de gestion des licences avec génération et validation de clés (PostgreSQL / Spring Boot / Angular)",
-            "Mise en place d’un pipeline CI/CD sur GitLab pour l’automatisation",
-            "Mise en œuvre de notifications en temps réel via RabbitMQ avec abonnements clients aux mises à jour"
+            "Développement Java/Angular de composants logiciels exposant des services REST",
+            "Application desktop JavaFX/Spring pour l’analyse de risque foudre",
+            "Architecture modulaire avec interface graphique et services REST en Spring",
+            "Gestion des licences (PostgreSQL, Spring Boot, Angular)",
+            "Pipeline CI/CD automatisé sur GitLab",
+            "Notifications temps réel via RabbitMQ"
         ],
         stack: [
             'Angular',
-            'Java - Spring',
-            'JavaFX',
+            'Java/Spring Boot/JavaFX',
             'JUnit',
             'Hostinger',
             'GitHub Actions',
@@ -46,8 +68,8 @@ export const EXPERIENCES: Experience[] = [
         ],
         stack: [
             'Angular',
-            'NestJS / Java - Spring',
-            'JestJS / JUnit',
+            'NestJS',
+            'JestJS',
             'AWS (SQS, SNS, S3, Lambda, CloudFront)',
             'Bitbucket Pipelines',
             'Jira',
@@ -57,7 +79,7 @@ export const EXPERIENCES: Experience[] = [
     {
         enterprise: 'Saint Jean',
         job: 'Assistant DSI',
-        date: 'Juin 2022 - Mars 2024',
+        date: 'Septembre 2022 - Mars 2024',
         description: [
             "Conteneurisation et orchestration avec Docker",
             "Déploiement et configuration d'un serveur Moodle local",
@@ -65,8 +87,7 @@ export const EXPERIENCES: Experience[] = [
             "Supervision de développeurs juniors"
         ],
         stack: [
-            'Java',
-            'Spring Boot',
+            'Java/Spring Boot',
             'Angular',
             'TailwindCSS',
             'Ionic',
@@ -79,14 +100,14 @@ export const EXPERIENCES: Experience[] = [
     {
         enterprise: 'Fond Routier',
         job: 'Technicien stagiaire / Développeur Full Stack',
-        date: 'Juin 2020 - Août 2020',
+        date: 'Juin 2021 - Août 2021',
         description: [
-            "Développement d’une application web visant à automatiser les cours théoriques d’auto-école (Angular, Django)",
-            "Conception de l’interface utilisateur, intégration des modules pédagogiques et mise en œuvre de la logique métier côté serveur",
-            "Mise en place des boîtes mail Outlook de l'entreprise",
-            "Extension du réseau LAN de l'entreprise",
-            "Assistance à la gestion du parc informatique",
-            "Installation des caméras de surveillance"
+            "Application web Angular/Django pour automatiser les cours théoriques d’auto‑école",
+            "Interface utilisateur & logique métier (intégration des modules pédagogiques côté serveur)",
+            "Configuration des boîtes mail Outlook de l’entreprise",
+            "Extension du réseau LAN et optimisation de l’infrastructure",
+            "Support au parc informatique (maintenance et assistance)",
+            "Installation de caméras de surveillance"
         ],
         stack: ["Angular", "Python / Django", "SQL"],
         link: 'https://fondsroutiercameroun.org/',
@@ -94,7 +115,7 @@ export const EXPERIENCES: Experience[] = [
     {
         enterprise: 'Fagiciel',
         job: 'Développeur PHP natif',
-        date: 'Juin 2018 - Août 2018',
+        date: 'Juin 2019 - Août 2019',
         description: [
             "Développement d’une application de gestion des arrivées des employés",
             "Connexion à la base de données",

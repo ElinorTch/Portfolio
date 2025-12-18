@@ -31,10 +31,10 @@ export class NavbarComponent {
             name: 'Accueil',
             target: '#header',
         },
-        {
-            name: 'About Me',
-            target: '#me',
-        },
+        // {
+        //     name: 'About Me',
+        //     target: '#me',
+        // },
         {
             name: 'Expériences',
             target: '#experiences',
